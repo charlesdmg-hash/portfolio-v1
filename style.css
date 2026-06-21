@@ -4,13 +4,6 @@
   box-sizing: border-box;
 }
 
-@media (max-width: 600px) {
-  #about {
-    margin: 20px 16px;
-    max-width: none;
-  }
-}
-
 body {
     min-height: 100vh;
     background: linear-gradient(lightblue, olive);
@@ -190,4 +183,11 @@ footer {
     text-align: center;
     margin: 25px;
     padding: 2px;
+}
+
+@media (max-width: 600px) {
+  #about {
+    margin: 20px 16px;
+    max-width: none;
+  }
 }
