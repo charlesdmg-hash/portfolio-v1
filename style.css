@@ -40,6 +40,7 @@ ul {
     list-style: none;
     justify-self: center;
     padding: 0;
+    flex-wrap: wrap;
 }
 
 a {
@@ -48,7 +49,7 @@ a {
 }
 
 a:hover {
-    color: blue
+    color: blue;
 
 }
 
@@ -80,10 +81,11 @@ section h2 {
     gap: 20px;
     height: auto;
     text-align: center;
+    flex-wrap: wrap;
 }
 
 #skills-cards img{
-    max-width: 50%;
+    max-width: 120px;
     height: auto;
     display: block;
     justify-self: center;
@@ -124,6 +126,7 @@ section h2 {
     gap: 20px;
     height: auto;
     text-align: center;
+    flex-wrap: wrap;
 }
 
 #projects-cards a {
