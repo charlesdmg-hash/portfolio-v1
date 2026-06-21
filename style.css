@@ -64,7 +64,7 @@ span {
 #about {
     border: 2px solid black;
     border-radius: 5px;
-    margin: 3px;
+    margin: auto;
     text-align: center;
     width: auto;
 }
@@ -78,7 +78,7 @@ section h2 {
     justify-content: center;
     align-content: center ;
     gap: 20px;
-    height: 400px;
+    height: auto;
     text-align: center;
 }
 
@@ -122,7 +122,7 @@ section h2 {
     justify-content: center;
     align-content: center ;
     gap: 20px;
-    height: 400px;
+    height: auto;
     text-align: center;
 }
 
